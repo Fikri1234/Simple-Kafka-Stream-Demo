@@ -1,0 +1,163 @@
+2019/03/28-17:17:10.891844 3e8c RocksDB version: 5.7.3
+2019/03/28-17:17:10.892007 3e8c Git sha rocksdb_build_git_sha:@acef93ed65f0cab701565a5d21edc1dea894130c@
+2019/03/28-17:17:10.892078 3e8c Compile date Sep  1 2017
+2019/03/28-17:17:10.892127 3e8c DB SUMMARY
+2019/03/28-17:17:10.892836 3e8c CURRENT file:  CURRENT
+2019/03/28-17:17:10.892900 3e8c IDENTITY file:  IDENTITY
+2019/03/28-17:17:10.893002 3e8c MANIFEST file:  MANIFEST-000041 size: 140 Bytes
+2019/03/28-17:17:10.893058 3e8c SST files in D:\STS_Develop\Simple-Kafka-Streams-Demo\Simple-Kafka-Streams-Demo-Log\Kafka-Streams-Demo\1_2\rocksdb\KSTREAM-AGGREGATE-STATE-STORE-0000000003 dir, Total Num: 2, files: 000036.sst 000045.sst 
+2019/03/28-17:17:10.893107 3e8c Write Ahead Log file in D:\STS_Develop\Simple-Kafka-Streams-Demo\Simple-Kafka-Streams-Demo-Log\Kafka-Streams-Demo\1_2\rocksdb\KSTREAM-AGGREGATE-STATE-STORE-0000000003: 000042.log size: 0 ; 
+2019/03/28-17:17:10.893567 3e8c                         Options.error_if_exists: 0
+2019/03/28-17:17:10.893607 3e8c                       Options.create_if_missing: 1
+2019/03/28-17:17:10.893629 3e8c                         Options.paranoid_checks: 1
+2019/03/28-17:17:10.893650 3e8c                                     Options.env: 00000000014D4E20
+2019/03/28-17:17:10.893671 3e8c                                Options.info_log: 00000000299F2D10
+2019/03/28-17:17:10.893692 3e8c                Options.max_file_opening_threads: 16
+2019/03/28-17:17:10.893712 3e8c                               Options.use_fsync: 0
+2019/03/28-17:17:10.893744 3e8c                       Options.max_log_file_size: 0
+2019/03/28-17:17:10.893765 3e8c                  Options.max_manifest_file_size: 18446744073709551615
+2019/03/28-17:17:10.893786 3e8c                   Options.log_file_time_to_roll: 0
+2019/03/28-17:17:10.893806 3e8c                       Options.keep_log_file_num: 1000
+2019/03/28-17:17:10.893826 3e8c                    Options.recycle_log_file_num: 0
+2019/03/28-17:17:10.893846 3e8c                         Options.allow_fallocate: 1
+2019/03/28-17:17:10.893866 3e8c                        Options.allow_mmap_reads: 0
+2019/03/28-17:17:10.893886 3e8c                       Options.allow_mmap_writes: 0
+2019/03/28-17:17:10.893906 3e8c                        Options.use_direct_reads: 0
+2019/03/28-17:17:10.893925 3e8c                        Options.use_direct_io_for_flush_and_compaction: 0
+2019/03/28-17:17:10.893946 3e8c          Options.create_missing_column_families: 0
+2019/03/28-17:17:10.893966 3e8c                              Options.db_log_dir: 
+2019/03/28-17:17:10.893986 3e8c                                 Options.wal_dir: D:\STS_Develop\Simple-Kafka-Streams-Demo\Simple-Kafka-Streams-Demo-Log\Kafka-Streams-Demo\1_2\rocksdb\KSTREAM-AGGREGATE-STATE-STORE-0000000003
+2019/03/28-17:17:10.894007 3e8c                Options.table_cache_numshardbits: 6
+2019/03/28-17:17:10.894027 3e8c                      Options.max_subcompactions: 1
+2019/03/28-17:17:10.894047 3e8c                  Options.max_background_flushes: 1
+2019/03/28-17:17:10.894066 3e8c                         Options.WAL_ttl_seconds: 0
+2019/03/28-17:17:10.894086 3e8c                       Options.WAL_size_limit_MB: 0
+2019/03/28-17:17:10.894106 3e8c             Options.manifest_preallocation_size: 4194304
+2019/03/28-17:17:10.894126 3e8c                     Options.is_fd_close_on_exec: 1
+2019/03/28-17:17:10.894146 3e8c                   Options.advise_random_on_open: 1
+2019/03/28-17:17:10.894166 3e8c                    Options.db_write_buffer_size: 0
+2019/03/28-17:17:10.894185 3e8c         Options.access_hint_on_compaction_start: 1
+2019/03/28-17:17:10.894205 3e8c  Options.new_table_reader_for_compaction_inputs: 0
+2019/03/28-17:17:10.894225 3e8c               Options.compaction_readahead_size: 0
+2019/03/28-17:17:10.894244 3e8c           Options.random_access_max_buffer_size: 1048576
+2019/03/28-17:17:10.894264 3e8c           Options.writable_file_max_buffer_size: 1048576
+2019/03/28-17:17:10.894284 3e8c                      Options.use_adaptive_mutex: 0
+2019/03/28-17:17:10.894304 3e8c                            Options.rate_limiter: 0000000000000000
+2019/03/28-17:17:10.894416 3e8c     Options.sst_file_manager.rate_bytes_per_sec: 0
+2019/03/28-17:17:10.894446 3e8c                          Options.bytes_per_sync: 0
+2019/03/28-17:17:10.894466 3e8c                      Options.wal_bytes_per_sync: 0
+2019/03/28-17:17:10.894486 3e8c                       Options.wal_recovery_mode: 2
+2019/03/28-17:17:10.894506 3e8c                  Options.enable_thread_tracking: 0
+2019/03/28-17:17:10.894526 3e8c                  Options.enable_pipelined_write: 0
+2019/03/28-17:17:10.894545 3e8c         Options.allow_concurrent_memtable_write: 1
+2019/03/28-17:17:10.894565 3e8c      Options.enable_write_thread_adaptive_yield: 1
+2019/03/28-17:17:10.894584 3e8c             Options.write_thread_max_yield_usec: 100
+2019/03/28-17:17:10.894605 3e8c            Options.write_thread_slow_yield_usec: 3
+2019/03/28-17:17:10.894625 3e8c                               Options.row_cache: None
+2019/03/28-17:17:10.894644 3e8c                              Options.wal_filter: None
+2019/03/28-17:17:10.894665 3e8c             Options.avoid_flush_during_recovery: 0
+2019/03/28-17:17:10.894685 3e8c             Options.allow_ingest_behind: 0
+2019/03/28-17:17:10.894704 3e8c             Options.concurrent_prepare: 0
+2019/03/28-17:17:10.894723 3e8c             Options.manual_wal_flush: 0
+2019/03/28-17:17:10.894756 3e8c             Options.max_background_jobs: 2
+2019/03/28-17:17:10.894775 3e8c             Options.max_background_compactions: 7
+2019/03/28-17:17:10.894795 3e8c             Options.avoid_flush_during_shutdown: 0
+2019/03/28-17:17:10.894815 3e8c             Options.delayed_write_rate : 16777216
+2019/03/28-17:17:10.894834 3e8c             Options.max_total_wal_size: 0
+2019/03/28-17:17:10.894857 3e8c             Options.delete_obsolete_files_period_micros: 21600000000
+2019/03/28-17:17:10.894891 3e8c                   Options.stats_dump_period_sec: 600
+2019/03/28-17:17:10.894922 3e8c                          Options.max_open_files: -1
+2019/03/28-17:17:10.894943 3e8c Compression algorithms supported:
+2019/03/28-17:17:10.894962 3e8c 	Snappy supported: 0
+2019/03/28-17:17:10.894980 3e8c 	Zlib supported: 0
+2019/03/28-17:17:10.894998 3e8c 	Bzip supported: 0
+2019/03/28-17:17:10.895016 3e8c 	LZ4 supported: 0
+2019/03/28-17:17:10.895034 3e8c 	ZSTD supported: 0
+2019/03/28-17:17:10.895060 3e8c Fast CRC32 supported: 1
+2019/03/28-17:17:10.896171 3e8c               Options.comparator: leveldb.BytewiseComparator
+2019/03/28-17:17:10.896205 3e8c           Options.merge_operator: None
+2019/03/28-17:17:10.896225 3e8c        Options.compaction_filter: None
+2019/03/28-17:17:10.896244 3e8c        Options.compaction_filter_factory: None
+2019/03/28-17:17:10.896263 3e8c         Options.memtable_factory: SkipListFactory
+2019/03/28-17:17:10.896283 3e8c            Options.table_factory: BlockBasedTable
+2019/03/28-17:17:10.896397 3e8c            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0000000027C7E9E0)
+  cache_index_and_filter_blocks: 0
+  cache_index_and_filter_blocks_with_high_priority: 0
+  pin_l0_filter_and_index_blocks_in_cache: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 00000000299D1AA0
+  block_cache_name: LRUCache
+  block_cache_options:
+    capacity : 52428800
+    num_shard_bits : 6
+    strict_capacity_limit : 0
+    high_pri_pool_ratio: 0.000
+  block_cache_compressed: 0000000000000000
+  persistent_cache: 0000000000000000
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  format_version: 0
+2019/03/28-17:17:10.896420 3e8c        Options.write_buffer_size: 16777216
+2019/03/28-17:17:10.896440 3e8c  Options.max_write_buffer_number: 3
+2019/03/28-17:17:10.896460 3e8c          Options.compression: NoCompression
+2019/03/28-17:17:10.896479 3e8c                  Options.bottommost_compression: Disabled
+2019/03/28-17:17:10.896499 3e8c       Options.prefix_extractor: nullptr
+2019/03/28-17:17:10.896518 3e8c   Options.memtable_insert_with_hint_prefix_extractor: nullptr
+2019/03/28-17:17:10.896624 3e8c             Options.num_levels: 7
+2019/03/28-17:17:10.896652 3e8c        Options.min_write_buffer_number_to_merge: 1
+2019/03/28-17:17:10.896672 3e8c     Options.max_write_buffer_number_to_maintain: 0
+2019/03/28-17:17:10.896692 3e8c            Options.compression_opts.window_bits: -14
+2019/03/28-17:17:10.896726 3e8c                  Options.compression_opts.level: -1
+2019/03/28-17:17:10.896746 3e8c               Options.compression_opts.strategy: 0
+2019/03/28-17:17:10.896766 3e8c         Options.compression_opts.max_dict_bytes: 0
+2019/03/28-17:17:10.896786 3e8c      Options.level0_file_num_compaction_trigger: 4
+2019/03/28-17:17:10.896806 3e8c          Options.level0_slowdown_writes_trigger: 20
+2019/03/28-17:17:10.896825 3e8c              Options.level0_stop_writes_trigger: 36
+2019/03/28-17:17:10.896845 3e8c                   Options.target_file_size_base: 67108864
+2019/03/28-17:17:10.896865 3e8c             Options.target_file_size_multiplier: 1
+2019/03/28-17:17:10.896885 3e8c                Options.max_bytes_for_level_base: 268435456
+2019/03/28-17:17:10.896905 3e8c Options.level_compaction_dynamic_level_bytes: 0
+2019/03/28-17:17:10.896924 3e8c          Options.max_bytes_for_level_multiplier: 10.000000
+2019/03/28-17:17:10.896949 3e8c Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2019/03/28-17:17:10.896969 3e8c Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2019/03/28-17:17:10.896989 3e8c Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2019/03/28-17:17:10.897009 3e8c Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2019/03/28-17:17:10.897029 3e8c Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2019/03/28-17:17:10.897049 3e8c Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2019/03/28-17:17:10.897068 3e8c Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2019/03/28-17:17:10.897088 3e8c       Options.max_sequential_skip_in_iterations: 8
+2019/03/28-17:17:10.897108 3e8c                    Options.max_compaction_bytes: 1677721600
+2019/03/28-17:17:10.897128 3e8c                        Options.arena_block_size: 2097152
+2019/03/28-17:17:10.897148 3e8c   Options.soft_pending_compaction_bytes_limit: 68719476736
+2019/03/28-17:17:10.897168 3e8c   Options.hard_pending_compaction_bytes_limit: 274877906944
+2019/03/28-17:17:10.897188 3e8c       Options.rate_limit_delay_max_milliseconds: 100
+2019/03/28-17:17:10.897208 3e8c                Options.disable_auto_compactions: 0
+2019/03/28-17:17:10.897230 3e8c                        Options.compaction_style: kCompactionStyleUniversal
+2019/03/28-17:17:10.897252 3e8c                          Options.compaction_pri: kByCompensatedSize
+2019/03/28-17:17:10.897272 3e8c Options.compaction_options_universal.size_ratio: 1
+2019/03/28-17:17:10.897292 3e8c Options.compaction_options_universal.min_merge_width: 2
+2019/03/28-17:17:10.897312 3e8c Options.compaction_options_universal.max_merge_width: 4294967295
+2019/03/28-17:17:10.897332 3e8c Options.compaction_options_universal.max_size_amplification_percent: 200
+2019/03/28-17:17:10.897353 3e8c Options.compaction_options_universal.compression_size_percent: -1
+2019/03/28-17:17:10.897374 3e8c Options.compaction_options_universal.stop_style: kCompactionStopStyleTotalSize
+2019/03/28-17:17:10.897395 3e8c Options.compaction_options_fifo.max_table_files_size: 1073741824
+2019/03/28-17:17:10.897415 3e8c Options.compaction_options_fifo.allow_compaction: 0
+2019/03/28-17:17:10.897435 3e8c Options.compaction_options_fifo.ttl: 0
+2019/03/28-17:17:10.897454 3e8c                   Options.table_properties_collectors: 
+2019/03/28-17:17:10.897474 3e8c                   Options.inplace_update_support: 0
+2019/03/28-17:17:10.897493 3e8c                 Options.inplace_update_num_locks: 10000
+2019/03/28-17:17:10.897513 3e8c               Options.memtable_prefix_bloom_size_ratio: 0.000000
+2019/03/28-17:17:10.897535 3e8c   Options.memtable_huge_page_size: 0
+2019/03/28-17:17:10.897554 3e8c                           Options.bloom_locality: 0
+2019/03/28-17:17:10.897573 3e8c                    Options.max_successive_merges: 0
+2019/03/28-17:17:10.897598 3e8c                Options.optimize_filters_for_hits: 0
+2019/03/28-17:17:10.897619 3e8c                Options.paranoid_file_checks: 0
+2019/03/28-17:17:10.897639 3e8c                Options.force_consistency_checks: 0
+2019/03/28-17:17:10.897659 3e8c                Options.report_bg_io_stats: 0
